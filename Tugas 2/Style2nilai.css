@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 100px;
+}
+
+h2  {
+    font-size: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+td:first-child, td:nth-child(2) {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
